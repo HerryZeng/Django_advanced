@@ -32,6 +32,15 @@
       {% endfor %}
    </tbody>
 </table>
+<div>
+    <p><a href="{% url 'tasklist' %}">所有任务列表</a></p>
+    <p><a href="{% url 'add_task' %}">添加任务</a></p>
+</div>
+<br />
+<div>
+    <p><a href="{% url 'poemlist' %}">所有诗书列表</a></p>
+    <p><a href="{% url 'add_poem' %}">添加诗书</a></p>
+</div>
 {#{% include 'foot.html' %}#}
 </body>
 </html>
